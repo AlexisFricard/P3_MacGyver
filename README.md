@@ -40,16 +40,16 @@ Modifier les conditions de victoire.
 - 0.2 : Création de la structure du code  
   Projet  
 &nbsp;&nbsp;+-- Images  
-&nbsp;&nbsp;&nbsp;&nbsp;|     +-- wall.png  
-&nbsp;&nbsp;&nbsp;&nbsp;|     +-- side_wall.png  
-&nbsp;&nbsp;&nbsp;&nbsp;|     +-- floor.png  
-&nbsp;&nbsp;&nbsp;&nbsp;|     +-- background_menu.png  
-&nbsp;&nbsp;&nbsp;&nbsp;|     +-- background_game.png  
-&nbsp;&nbsp;&nbsp;&nbsp;|     +-- MacGyver.png  
-&nbsp;&nbsp;&nbsp;&nbsp;|     +-- guardian.png  
-&nbsp;&nbsp;&nbsp;&nbsp;|     +-- icon.png  
-&nbsp;&nbsp;&nbsp;&nbsp;|     +-- door.png  
-&nbsp;&nbsp;&nbsp;&nbsp;|     +-- win.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- wall.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- side_wall.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- floor.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- background_menu.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- background_game.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- MacGyver.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- guardian.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- icon.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- door.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- win.png  
 &nbsp;&nbsp;+--   constantes.py  
 &nbsp;&nbsp;+--   loads.py  
 &nbsp;&nbsp;+--   main.py  
