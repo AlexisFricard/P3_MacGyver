@@ -40,16 +40,16 @@ Modifier les conditions de victoire.
 - 0.2 : Création de la structure du code
   
   +-- Images  
-  |     +-- wall.png  
-  |     +-- side_wall.png  
-  |     +-- floor.png  
-  |     +-- background_menu.png  
-  |     +-- background_game.png  
-  |     +-- MacGyver.png  
-  |     +-- guardian.png  
-  |     +-- icon.png  
-  |     +-- door.png  
-  |     +-- win.png  
+&nbsp;&nbsp;&nbsp;&nbsp;|     +-- wall.png  
+&nbsp;&nbsp;&nbsp;&nbsp;|     +-- side_wall.png  
+&nbsp;&nbsp;&nbsp;&nbsp;|     +-- floor.png  
+&nbsp;&nbsp;&nbsp;&nbsp;|     +-- background_menu.png  
+&nbsp;&nbsp;&nbsp;&nbsp;|     +-- background_game.png  
+&nbsp;&nbsp;&nbsp;&nbsp;|     +-- MacGyver.png  
+&nbsp;&nbsp;&nbsp;&nbsp;|     +-- guardian.png  
+&nbsp;&nbsp;&nbsp;&nbsp;|     +-- icon.png  
+&nbsp;&nbsp;&nbsp;&nbsp;|     +-- door.png  
+&nbsp;&nbsp;&nbsp;&nbsp;|     +-- win.png  
 +--   constantes.py  
 +--   loads.py  
 +--   main.py  
@@ -63,11 +63,11 @@ Taille du pixel, Nombre de sprites de largeur et de longueur, Dimmenssion de la 
 loads :  
   
 Classe Level :  
-&nbsp;&nbsp;+-- Générateur du labyrinthe en fonction du choix du niveau  
-  +-- "Dessin" du labyrtinthe  
+&nbsp;&nbsp;&nbsp;&nbsp;+-- Générateur du labyrinthe en fonction du choix du niveau  
+&nbsp;&nbsp;&nbsp;&nbsp;+-- "Dessin" du labyrtinthe  
 Classe MacGyver :  
-  +-- Objet MacGyver  
-  +-- Déplacements  
+&nbsp;&nbsp;&nbsp;&nbsp;+-- Objet MacGyver  
+&nbsp;&nbsp;&nbsp;&nbsp;+-- Déplacements  
   
 main :  
 Modélisation de la fenetre, Boucle de menu, Boucle de jeu
