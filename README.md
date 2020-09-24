@@ -37,8 +37,8 @@ Modifier les conditions de victoire.
 ### V0.0
 - 0.0 : Lecture du tuto [**Dk.labyrinthe**](http://sdz.tdct.org/sdz/interface-graphique-pygame-pour-python.html)
 - 0.1 : Appropriation du programme Dk.labyrinthe
-- 0.2 : Création de la structure du code
-  Projet
+- 0.2 : Création de la structure du code  
+  Projet  
 &nbsp;&nbsp;+-- Images  
 &nbsp;&nbsp;&nbsp;&nbsp;|     +-- wall.png  
 &nbsp;&nbsp;&nbsp;&nbsp;|     +-- side_wall.png  
