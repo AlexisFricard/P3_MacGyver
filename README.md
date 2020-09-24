@@ -38,8 +38,8 @@ Modifier les conditions de victoire.
 - 0.0 : Lecture du tuto [**Dk.labyrinthe**](http://sdz.tdct.org/sdz/interface-graphique-pygame-pour-python.html)
 - 0.1 : Appropriation du programme Dk.labyrinthe
 - 0.2 : Création de la structure du code
-  
-  +-- Images  
+  Projet
+&nbsp;&nbsp;+-- Images  
 &nbsp;&nbsp;&nbsp;&nbsp;|     +-- wall.png  
 &nbsp;&nbsp;&nbsp;&nbsp;|     +-- side_wall.png  
 &nbsp;&nbsp;&nbsp;&nbsp;|     +-- floor.png  
@@ -50,17 +50,17 @@ Modifier les conditions de victoire.
 &nbsp;&nbsp;&nbsp;&nbsp;|     +-- icon.png  
 &nbsp;&nbsp;&nbsp;&nbsp;|     +-- door.png  
 &nbsp;&nbsp;&nbsp;&nbsp;|     +-- win.png  
-+--   constantes.py  
-+--   loads.py  
-+--   main.py  
-+--   LVL1.file  
-+--   LVL2.file  
+&nbsp;&nbsp;+--   constantes.py  
+&nbsp;&nbsp;+--   loads.py  
+&nbsp;&nbsp;+--   main.py  
+&nbsp;&nbsp;+--   LVL1.file  
+&nbsp;&nbsp;+--   LVL2.file  
 
-constantes :  
+- constantes :  
   
 Taille du pixel, Nombre de sprites de largeur et de longueur, Dimmenssion de la fenêtre, Titre de la fenêtre, Images de l'incone du fond menu et jeu, MacGyver et fond de victoire
 
-loads :  
+- loads :  
   
 Classe Level :  
 &nbsp;&nbsp;&nbsp;&nbsp;+-- Générateur du labyrinthe en fonction du choix du niveau  
@@ -69,7 +69,8 @@ Classe MacGyver :
 &nbsp;&nbsp;&nbsp;&nbsp;+-- Objet MacGyver  
 &nbsp;&nbsp;&nbsp;&nbsp;+-- Déplacements  
   
-main :  
+- main :  
+
 Modélisation de la fenetre, Boucle de menu, Boucle de jeu
 
 ### 0.3: Session de mentorat hebdommadaire  
