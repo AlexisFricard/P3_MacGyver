@@ -40,38 +40,21 @@ Modifier les conditions de victoire.
 - 0.2 : Création de la structure du code  
   Projet  
 &nbsp;&nbsp;+-- Images  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- wall.png  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- side_wall.png  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- floor.png  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- background_menu.png  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- background_game.png  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- MacGyver.png  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- guardian.png  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- icon.png  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- door.png  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- win.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- wall.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- side_wall.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- floor.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- background_menu.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- background_game.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- MacGyver.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- guardian.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- icon.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- door.png  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- win.png  
 &nbsp;&nbsp;+--   constantes.py  
 &nbsp;&nbsp;+--   loads.py  
 &nbsp;&nbsp;+--   main.py  
 &nbsp;&nbsp;+--   LVL1.file  
 &nbsp;&nbsp;+--   LVL2.file  
-
-- constantes :  
-  
-Taille du pixel, Nombre de sprites de largeur et de longueur, Dimmenssion de la fenêtre, Titre de la fenêtre, Images de l'incone du fond menu et jeu, MacGyver et fond de victoire
-
-- loads :  
-  
-Classe Level :  
-&nbsp;&nbsp;&nbsp;&nbsp;+-- Générateur du labyrinthe en fonction du choix du niveau  
-&nbsp;&nbsp;&nbsp;&nbsp;+-- "Dessin" du labyrtinthe  
-Classe MacGyver :  
-&nbsp;&nbsp;&nbsp;&nbsp;+-- Objet MacGyver  
-&nbsp;&nbsp;&nbsp;&nbsp;+-- Déplacements  
-  
-- main :  
-
-Modélisation de la fenetre, Boucle de menu, Boucle de jeu
 
 ### 0.3: Session de mentorat hebdommadaire  
 
@@ -89,7 +72,7 @@ A prévoir :
 
 - Initialisation d'un repo Git et envoyer la V1.0 sur Github
 - Développer dans un environnement virtuel
-- Réorganisation des méthodes et de l'encapsulation
+- Refondre le programme
 - Utiliser les bonnes méthodes de la PEP8
 
 ### V1.0 : La version V1.0 est fonctionnelle !! 
