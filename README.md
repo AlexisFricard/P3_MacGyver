@@ -3,7 +3,7 @@
 ## Description du projet :
 Aidez MacGyver à s'échapper !
 Mini jeu 2D de labyrinthe codé en python avec PyGame :
-Vous incarnez MacGyver, devez trouver des objets pour emprunter la sortie du labyrinthe surveillé par un garde.
+Vous incarnez MacGyver, devez trouver des objets pour emprunter la sortie du labyrinthe surveillé par un garde.  
 [**Détails du projet**](https://openclassrooms.com/projects/aidez-macgyver-a-sechapper)
 
 ## Etapes :
