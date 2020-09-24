@@ -56,17 +56,21 @@ Modifier les conditions de victoire.
 +--   LVL1.file  
 +--   LVL2.file  
 
-**constantes :** Taille du pixel, Nombre de sprites de largeur et de longueur, Dimmenssion de la fenêtre, Titre de la fenêtre, Images de l'incone du fond menu et jeu, MacGyver et fond de victoire
+constantes :  
+  
+Taille du pixel, Nombre de sprites de largeur et de longueur, Dimmenssion de la fenêtre, Titre de la fenêtre, Images de l'incone du fond menu et jeu, MacGyver et fond de victoire
 
-**loads :** 
+loads :  
+  
 Classe Level :  
-&nbsp;&nbsp+-- Générateur du labyrinthe en fonction du choix du niveau  
+&nbsp;&nbsp;+-- Générateur du labyrinthe en fonction du choix du niveau  
   +-- "Dessin" du labyrtinthe  
 Classe MacGyver :  
   +-- Objet MacGyver  
   +-- Déplacements  
   
-**main :** Modélisation de la fenetre, Boucle de menu, Boucle de jeu
+main :  
+Modélisation de la fenetre, Boucle de menu, Boucle de jeu
 
 ### 0.3: Session de mentorat hebdommadaire  
 
