@@ -16,29 +16,29 @@ Ajouter le fait de ramasser les objets.
 ### 4 - Gagner ! 
 Modifier les conditions de victoire.
 
-##Contraintes :
+## Contraintes :
 - Versionner le code avec git et le publier sur Github  
 - Suivre les recommandations de la PEP 8 et développerer dans un environnement virtuel utilisant Python 3  
 - Code écrit en anglais (nom des variables, commentaires, fonctions, etc)
 
-##Prérequis :
+## Prérequis :
 - S'initier à PyGame, à l'environnement virtuel et à la PEP8
 
-##Prévision des difficultés :
+## Prévision des difficultés :
 - Placer aléatoirement les objets 
 - La réinitialisation du pixel de l'objet
 
-##Formats des fichiers :
+## Formats des fichiers :
 Le(s) plan(s) du/des labyrinthe(s) seront des .xsb après lecture du [**Projet Sokoban**](https://chamilo.univ-grenoble-alpes.fr/courses/IUT1RT1M2109/document/1718-Sokoban/build/index.html)
 Le reste en python .py
 
-##Déroulement du projet :
+## Déroulement du projet :
 
-###0.0: 
+### 0.0: 
 Lecture du tuto [**Dk.labyrinthe**](http://sdz.tdct.org/sdz/interface-graphique-pygame-pour-python.html)
-###0.1: 
+### 0.1: 
 Appropriation du programme Dk.labyrinthe
-###0.2: 
+### 0.2: 
 Création de la structure du code :
 
 ###V0.2
@@ -101,10 +101,10 @@ A prévoir :
 - Réorganisation des méthodes et de l'encapsulation
 - Utiliser les bonnes méthodes de la PEP8
 
-###V1.0 : 
+### V1.0 : 
 La version V1.0 est fonctionnelle !! 
 
-###1.1 : 
+### 1.1 : 
 Initialisation d'un repo Git et envoie du programme V1.0 sur Github
 
 
