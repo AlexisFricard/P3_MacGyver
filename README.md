@@ -34,6 +34,7 @@ Modifier les conditions de victoire.
 
 ## Déroulement du projet :
 
+### V0.0
 - 0.0 : Lecture du tuto [**Dk.labyrinthe**](http://sdz.tdct.org/sdz/interface-graphique-pygame-pour-python.html)
 - 0.1 : Appropriation du programme Dk.labyrinthe
 - 0.2 : Création de la structure du code
@@ -58,16 +59,16 @@ Modifier les conditions de victoire.
 **constantes :** Taille du pixel, Nombre de sprites de largeur et de longueur, Dimmenssion de la fenêtre, Titre de la fenêtre, Images de l'incone du fond menu et jeu, MacGyver et fond de victoire
 
 **loads :** 
-Classe Level :
-  +-- Générateur du labyrinthe en fonction du choix du niveau
-  +-- "Dessin" du labyrtinthe
-Classe MacGyver :
-  +-- Objet MacGyver
-  +-- Déplacements
+Classe Level :  
+&nbsp;&nbsp+-- Générateur du labyrinthe en fonction du choix du niveau  
+  +-- "Dessin" du labyrtinthe  
+Classe MacGyver :  
+  +-- Objet MacGyver  
+  +-- Déplacements  
   
 **main :** Modélisation de la fenetre, Boucle de menu, Boucle de jeu
 
-- 0.3: Session de mentorat hebdommadaire
+### 0.3: Session de mentorat hebdommadaire  
 
 Problèmes et causes:
 - Le pixel où se trouvais MacGyver ne se réinitialisais pas
