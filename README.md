@@ -34,11 +34,14 @@ Le reste en python .py
 
 ## Déroulement du projet :
 
-###**0.0**: Lecture du tuto [**Dk.labyrinthe**](http://sdz.tdct.org/sdz/interface-graphique-pygame-pour-python.html)
-###**0.1**: Appropriation du programme Dk.labyrinthe
-###**0.2**: Création de la structure du code :
+###0.0: 
+Lecture du tuto [**Dk.labyrinthe**](http://sdz.tdct.org/sdz/interface-graphique-pygame-pour-python.html)
+###0.1: 
+Appropriation du programme Dk.labyrinthe
+###0.2: 
+Création de la structure du code :
 
-###**V0.2**
+###V0.2
   +-- Images
   |     +-- wall.png
   |     +-- side_wall.png
@@ -79,7 +82,7 @@ Modélisation de la fenetre
 Boucle de menu
 Boucle de jeu
 
-###**0.3** - Session de mentorat hebdommadaire
+###0.3: Session de mentorat hebdommadaire
 
 Problèmes et causes:
 - Le pixel où se trouvais MacGyver ne se réinitialisais pas
@@ -98,9 +101,11 @@ A prévoir :
 - Réorganisation des méthodes et de l'encapsulation
 - Utiliser les bonnes méthodes de la PEP8
 
-###**V1.0** : La version V1.0 est fonctionnelle !! 
+###V1.0 : 
+La version V1.0 est fonctionnelle !! 
 
-###**1.1** : Initialisation d'un repo Git et envoie du programme V1.0 sur Github
+###1.1 : 
+Initialisation d'un repo Git et envoie du programme V1.0 sur Github
 
 
 
