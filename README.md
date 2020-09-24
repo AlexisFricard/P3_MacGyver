@@ -29,19 +29,15 @@ Modifier les conditions de victoire.
 - La réinitialisation du pixel de l'objet
 
 ## Formats des fichiers :
-Le(s) plan(s) du/des labyrinthe(s) seront des .xsb après lecture du [**Projet Sokoban**](https://chamilo.univ-grenoble-alpes.fr/courses/IUT1RT1M2109/document/1718-Sokoban/build/index.html)
+Le(s) plan(s) du/des labyrinthe(s) seront des .xsb après lecture du [**Projet Sokoban**](https://chamilo.univ-grenoble-alpes.fr/courses/IUT1RT1M2109/document/1718-Sokoban/build/index.html).
 Le reste en python .py
 
 ## Déroulement du projet :
 
-### 0.0: 
-Lecture du tuto [**Dk.labyrinthe**](http://sdz.tdct.org/sdz/interface-graphique-pygame-pour-python.html)
-### 0.1: 
-Appropriation du programme Dk.labyrinthe
-### 0.2: 
-Création de la structure du code :
+### 0.0 : Lecture du tuto [**Dk.labyrinthe**](http://sdz.tdct.org/sdz/interface-graphique-pygame-pour-python.html)
+### 0.1 : Appropriation du programme Dk.labyrinthe
+### 0.2 : Création de la structure du code
 
-###V0.2
   +-- Images
   |     +-- wall.png
   |     +-- side_wall.png
@@ -59,16 +55,9 @@ Création de la structure du code :
 +--   LVL1.file
 +--   LVL2.file
 
-**constantes :**
+**constantes :** Taille du pixel, Nombre de sprites de largeur et de longueur, Dimmenssion de la fenêtre, Titre de la fenêtre, Images de l'incone du fond menu et jeu, MacGyver et fond de victoire
 
-Taille du pixel
-Nombre de sprites de largeur et de longueur
-Dimmenssion de la fenêtre
-Titre de la fenêtre
-Images de l'incone, la fond menu et jeu, MacGyver et fond de victoire
-
-**loads :**
-
+**loads :** 
 Classe Level :
   +-- Générateur du labyrinthe en fonction du choix du niveau
   +-- "Dessin" du labyrtinthe
@@ -76,13 +65,9 @@ Classe MacGyver :
   +-- Objet MacGyver
   +-- Déplacements
   
-**main :**
+**main :** Modélisation de la fenetre, Boucle de menu, Boucle de jeu
 
-Modélisation de la fenetre
-Boucle de menu
-Boucle de jeu
-
-###0.3: Session de mentorat hebdommadaire
+### 0.3: Session de mentorat hebdommadaire
 
 Problèmes et causes:
 - Le pixel où se trouvais MacGyver ne se réinitialisais pas
@@ -101,11 +86,9 @@ A prévoir :
 - Réorganisation des méthodes et de l'encapsulation
 - Utiliser les bonnes méthodes de la PEP8
 
-### V1.0 : 
-La version V1.0 est fonctionnelle !! 
+### V1.0 : La version V1.0 est fonctionnelle !! 
 
-### 1.1 : 
-Initialisation d'un repo Git et envoie du programme V1.0 sur Github
+### 1.1 : Initialisation d'un repo Git et envoie du programme V1.0 sur Github
 
 
 
