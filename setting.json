@@ -1,0 +1,18 @@
+{
+	"icon" : "images/icon.png",
+	"background_menu": "images/background_menu.png",
+	"side_wall": "images/side_wall.png",
+	"macgyver": "images/MacGyver.png",
+	"guardian": "images/guardian.png",
+	"wall": "images/wall.png",
+	"floor": "images/floor.png",
+	"door": "images/door.png",
+	"loose_flag" : "images/loose.png",
+	"win_flag": "images/win.png",
+	"nb_item0": "images/nb_item0.png",
+	"nb_item1" : "images/nb_item1.png",
+	"nb_item2" : "images/nb_item2.png",
+	"flag_items" : "images/flag_items.png",
+	"items": {"item1" : "images/item1.png",
+			  "item2" : "images/item2.png"}
+}
