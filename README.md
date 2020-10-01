@@ -114,7 +114,7 @@ A prévoir :
 ### 1.4 : Session de mentorat hebdommadaire  
 
 Problèmes et causes:  
-- Manque 3 ème item
+- Manque 3ème item
   
 Solutions :
 - Ajouter 3ème item et supprimer les "vides" où l'on ne souhaite pas avoir d'item
@@ -126,6 +126,9 @@ A prévoir :
 
 ### V2.0 : La version V2.0 est fonctionnelle !! 
 
+- 2.1 : Push version 2.0 sur Github
+- 2.2 : Fractionnement de functions.py en item.py, character.py, level.py
+- 2.2 : Push des modificiations + images item3 et nb_item3
 
 
 
