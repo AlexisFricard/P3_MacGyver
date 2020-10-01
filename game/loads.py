@@ -19,7 +19,8 @@ class Images:
 		self.flag_items = self.load_image(setting["flag_items"])
 		self.nb_item0 = self.load_image(setting["nb_item0"])
 		self.nb_item1 = self.load_image(setting["nb_item1"])
-		self.nb_item2 = self.load_image(setting["nb_item2"])				
+		self.nb_item2 = self.load_image(setting["nb_item2"])
+		self.nb_item3 = self.load_image(setting["nb_item3"])			
 		self.items = {}
 		for item in setting["items"]:
 			self.items[item] = self.load_image(setting["items"][item])

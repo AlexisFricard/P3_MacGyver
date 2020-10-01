@@ -27,6 +27,8 @@ def draw(level, macgyver, images, window):
 					window.blit(images.nb_item1(), pixel_position)
 				if macgyver.nb_items == 2:
 					window.blit(images.nb_item2(), pixel_position)
+				if macgyver.nb_items == 3:
+					window.blit(images.nb_item3(), pixel_position)
 			else:
 				window.blit(images.floor(), pixel_position)
 
