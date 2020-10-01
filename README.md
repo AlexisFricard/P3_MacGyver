@@ -128,7 +128,7 @@ A prévoir :
 
 - 2.1 : Push version 2.0 sur Github
 - 2.2 : Fractionnement de functions.py en item.py, character.py, level.py
-- 2.2 : Push des modificiations + images item3 et nb_item3
+- 2.2 : Ajout du 3ème item et Push des modificiations
 
 
 
