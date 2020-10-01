@@ -15,8 +15,10 @@ from pygame.locals import *
 
 from game.constants import WINDOW_WIDTH, WINDOW_HEIGHT
 import game.loads as loads
-import game.functions as functions
 import game.display as display
+import game.level as functions
+import game.item as item
+import game.character as character
 
 
 def main():
@@ -73,7 +75,7 @@ def main():
 			level = functions.Level(loads.initialize_maze_map(level_choice), setting["items"])
 			# level = [[[list_of [list level_file_ligne]], ["pygame.image.load(images/item1.png).convert_alpha", ...]]
 	    	# Generate MacGyver with maze to add him (and know who he is) and list of item like precentlY
-			macgyver = functions.Character(level, setting["items"]) # initalization de macgyver
+			macgyver = character.Character(level, setting["items"]) # initalization de macgyver
 			# Here, macgyver have attribute how much items he have, and his position 
 			# Draw each objects
 			display.draw(level, macgyver, images, window)
