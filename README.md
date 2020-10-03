@@ -122,14 +122,28 @@ Solutions :
 A prévoir :  
 - Fractionner chaque classe en fichier.py
 - Utiliser les bonnes méthodes de la PEP8
-- Push la nouvelle version sur Github avec Git
+- Push la nouvelle version sur GitHub avec Git
 
 ### V2.0 : La version V2.0 est fonctionnelle !! 
 
 - 2.1 : Push version 2.0 sur Github
 - 2.2 : Fractionnement de functions.py en item.py, character.py, level.py
-- 2.2 : Ajout du 3ème item et Push des modifications
+- 2.3 : Changement de l'architecture du code dans game/ __*__
+- 2.4 : Ajout du 3ème item et Push des modifications
+- 2.5 : Modifications de setting en dictionnaire de deux dictionnaires (pictures, items)
+- 2.6 : Changement d'impression du labyrinthe dans draw.py et du chargement des images (boucle for) dans loads.py
+- 2.7 : Application de Pylint pour répondre au normes de la PEP8
+- 2.8 : Modificication d'images pour l'agréabilité
 
+__*__ :  
+&nbsp;&nbsp;|&nbsp;&nbsp;+-- game/  
+&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- character.py  
+&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- constants.py  
+&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- display.py  
+&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- item.py  
+&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- level.py  
+&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|     +-- loads.py
 
-
-
+- 2.9 : Push de la nouvelle version sur Github
+  
+### V3.0 : La version Finale V3.0 est fonctionnelle !!  
