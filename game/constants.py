@@ -1,6 +1,7 @@
-########## Window ############
+"""
+Constants Module - Contains size of the window
+"""
 
-# Size of the window
 TILE_SIZE = 40
 TILE_WIDTH = 15
 TILE_HEIGHT = 15
