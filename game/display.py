@@ -18,8 +18,11 @@ def draw(level, macgyver, images, window):
                                 "D": "door", "Y": "flag_items"}
 
                 if sprite in ("W", "@", "A", "D", "Y"):
+                    if sprite == "@":
+                        window.blit(images.pictures["floor"](), pixel_position)
                     typ_of_let = typ_of_char[sprite]
                     window.blit(images.pictures[typ_of_let](), pixel_position)
+
                 elif sprite == 'Z':
                     for item in range(0, macgyver.nb_items + 1):
                         window.blit(images.pictures["nb_item{}".format(item)](), pixel_position)
