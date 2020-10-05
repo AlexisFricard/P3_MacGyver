@@ -8,14 +8,14 @@ from game.constants import TILE_SIZE
 def draw(level, macgyver, images, window):
     """ Method to draw each case """
     if macgyver.conjoncture == "IN_PROGRESS":
+        typ_of_char = { "W": "wall", "@": "guardian", "A": "side_wall",
+                        "D": "door", "Y": "flag_items"}
         line_nb = 0
         for line in level.maze_map:
             case_nb = 0
             for sprite in line:
 
                 pixel_position = (case_nb * TILE_SIZE ,line_nb * TILE_SIZE)
-                typ_of_char = { "W": "wall", "@": "guardian", "A": "side_wall",
-                                "D": "door", "Y": "flag_items"}
 
                 if sprite == "@":
                     window.blit(images.pictures["floor"](), pixel_position)

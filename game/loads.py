@@ -21,7 +21,6 @@ class Images:
         """ Return the transparent pygame image load command """
         return pygame.image.load(image_link).convert_alpha
 
-
 def initialize_maze_map(level_choice):
     """ Generate the file according to the chosen level """
     with open(level_choice, "r") as level_map:
