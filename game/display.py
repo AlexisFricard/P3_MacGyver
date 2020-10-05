@@ -17,9 +17,10 @@ def draw(level, macgyver, images, window):
                 typ_of_char = { "W": "wall", "@": "guardian", "A": "side_wall",
                                 "D": "door", "Y": "flag_items"}
 
+                if sprite == "@":
+                    window.blit(images.pictures["floor"](), pixel_position)
+
                 if sprite in ("W", "@", "A", "D", "Y"):
-                    if sprite == "@":
-                        window.blit(images.pictures["floor"](), pixel_position)
                     typ_of_let = typ_of_char[sprite]
                     window.blit(images.pictures[typ_of_let](), pixel_position)
 
@@ -29,19 +30,18 @@ def draw(level, macgyver, images, window):
                 else:
                     window.blit(images.pictures["floor"](), pixel_position)
 
-
                 case_nb += 1
             line_nb += 1
         window.blit(images.pictures["macgyver"](), macgyver.sprite_position)
 
-    for item in level.items:
-        if level.items[item].visible:
-            window.blit(images.items[item](), level.items[item].sprite_position)
+        for item in level.items:
+            if level.items[item].visible:
+                window.blit(images.items[item](), level.items[item].sprite_position)
 
     if macgyver.conjoncture == "LOST":
-        window.blit(images.pictures["loose_flag"](), (0,0))
+        window.blit(images.pictures["lost_flag"](), (0,0))
 
-    elif macgyver.conjoncture == "WIN":
+    if macgyver.conjoncture == "WIN":
         window.blit(images.pictures["win_flag"](), (0,0))
 
     pygame.display.flip()
