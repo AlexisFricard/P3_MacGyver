@@ -8,7 +8,7 @@
 				 "wall": "images/wall.png",
 				 "floor": "images/floor.png",
 				 "door": "images/door.png",
-				 "loose_flag": "images/loose.png",
+				 "lost_flag": "images/loose.png",
 				 "win_flag": "images/win.png",
 				 "nb_item0": "images/nb_item0.png",
 				 "nb_item1": "images/nb_item1.png",
