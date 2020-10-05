@@ -16,8 +16,8 @@ class Images:
         for item in setting["items"]:
             self.items[item] = self.load_images(setting["items"][item])
 
-    @classmethod
-    def load_images(cls, image_link):
+
+    def load_images(self, image_link):
         """ Return the transparent pygame image load command """
         return pygame.image.load(image_link).convert_alpha
 
