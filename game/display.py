@@ -14,16 +14,12 @@ def draw(level, macgyver, images, window):
         for line in level.maze_map:
             case_nb = 0
             for sprite in line:
-
                 pixel_position = (case_nb * TILE_SIZE ,line_nb * TILE_SIZE)
-
                 if sprite == "@":
                     window.blit(images.pictures["floor"](), pixel_position)
-
                 if sprite in ("W", "@", "A", "D", "Y"):
                     typ_of_let = typ_of_char[sprite]
                     window.blit(images.pictures[typ_of_let](), pixel_position)
-
                 elif sprite == 'Z':
                     for item in range(0, macgyver.nb_items + 1):
                         window.blit(images.pictures["nb_item{}".format(item)](), pixel_position)
