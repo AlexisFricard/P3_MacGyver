@@ -146,4 +146,8 @@ __*__ :
 
 - 2.9 : Push de la nouvelle version sur Github
   
-### V3.0 : La version Finale V3.0 est fonctionnelle !!  
+### V3.0 : La V3.0 est fonctionnelle !!  
+
+- 3.1 : Correctifs mineur (images, orthographe et traduction)
+
+### V4.0
