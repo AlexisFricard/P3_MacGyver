@@ -150,4 +150,4 @@ __*__ :
 
 - 3.1 : Correctifs mineur (images, orthographe et traduction)
 
-### V4.0
+### V4.0 : Fonctionnelle !!
